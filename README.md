@@ -23,10 +23,37 @@ not-> Ele altera o valor booleano da condição.
 
 # FORMAT EM PYTHON
 
-# Estrutura de repetição
+# Estrutura condicional
 ``if (se)`` -> verifica se uma condição é true (verdadeira) - Se for, ele executa o código
 ``elif (senão se)`` -> é usado para testar várias condições. Ele só executa se todas as condições anteriores forem falsas
 ``else (senão)`` -> executa o código se a condição if for false (falsa)
+
+# LAÇOS DE REPETIÇÃO
+É um recurso de programação que permite executar um conjunto de comando várias vezes. Também são chamados de loop, laços de repetição ou iteração
+``for``-> Utilizamos quando sabemos quantas vezes queremos repetir algo
+Sintáxe:
+fpr variável in range (início, fim):
+    comandos
+``range()``-> Método que aceita geração de números
+``início``-> É inclusivo. É o primeiro número a ser usado.
+``fim``-> É exclusivo. O número utilizado é o anterior a esse.
+## Escopo das variáveis
+``Escopo Local``-> A ela só pode ser acessada dentro da estrutura que ela foi criada.
+``Escopo Global``-> A Variável pode ser acessada por todo mundo.
+
+## Variações das variáveis
+Variável em memória -> É declara quando você não pretende utilizar essa variável em outros cenários.
+Variável contadora -> É utilizada para uma lógica onde a repetição irá ser alterada.
+
+``While``-> É utilizado quando não sabemos quantas vezes o programa vai repetir. Ele repete enquanto uma condição for verdadeira.
+Sintáxe:
+while :condicao;
+    comandos
+
+# CONVERSÃO DE TIPOS DE PYTHON
+1. int() -> A gente vai incluir qual variável/dado deveremos converter para número inteiro
+2. float() -> A gente vai incluir qual variável/dado deveremos converter para número decimal
+3. str() -> A gente vai incluir qual variável/dado deveremos converter para texto  
 
 # Boas Práticas
 1. Qualquer variável em python utiliza o padrão de case snake_case ou recentemente o cammelCase.
