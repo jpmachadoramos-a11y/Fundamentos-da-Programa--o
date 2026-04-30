@@ -1,5 +1,6 @@
 quantidade_alunos =[]
 media_turma = []
+notas = []
 while True:
     print("""Menu Principal
           [1] Alunos cadastrados
@@ -11,22 +12,26 @@ while True:
           """)
     opcao = input("Selecione uma opção: ")
 
+    estado_aluno = sum(notas) / 3
+
     if opcao == "1":
         aluno_cadastro = float(input("Digite o número de alunos cadastrados: "))
 
-    if opcao == "2":
+    elif opcao == "2":
         str(input("Digite o nome do aluno: "))
 
-    if opcao == "3":
+    elif opcao == "3":
         nota01 = float(input("Digite a nota do aluno no Primeiro Semestre"))
+        notas.append(nota01)
 
-    if opcao == "4":
+    elif opcao == "4":
         nota02 = float(input("Digite a nota do aluno no Segundo Semestre"))
+        notas.append(nota02)
 
-    if opcao == "5":
+    elif opcao == "5":
         nota03 = float(input("Digite a nota do aluno no Terceiro Semestre"))
+        notas.append(nota03)
 
-    estado_aluno = (nota01 + nota02 + nota03) / 3
 
     if estado_aluno >= 7:
         print("Aluno aprovado.")
