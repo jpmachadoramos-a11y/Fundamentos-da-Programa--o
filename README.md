@@ -18,8 +18,11 @@ or->ou-> Se pelo menos uma condição é verdadeira, o resultado é verdadeiro.
 not-> Ele altera o valor booleano da condição.
 
 # MÉTODOS EM PYTHON
-1. print() -> Exibe informações no terminal
-2. input() -> Capturar uma informação no terminal
+1. print() -> Exibe informações no terminal.
+2. input() -> Capturar uma informação no terminal.
+3. lower() -> Converte toda a string em minúscula.
+4. upper() -> Converte toda a string em maiúscula.
+5. isdigit() -> Verifica se o valor contém número.
 
 # FORMAT EM PYTHON
 
@@ -59,3 +62,13 @@ while :condicao;
 1. Qualquer variável em python utiliza o padrão de case snake_case ou recentemente o cammelCase.
 2. Se você observar alguma estrutura tipo nome(), 90% de chance de ser uma função.
 3. Python não tem constante, porém utilizamos o padrão case UPPERCASE, para simular que aquela variável não pode ser alterada.
+
+## Estruturas em Python
+list ou lista -> Armazena valores avulsos e podem ser heterogênea ou homogênea. Ou seja, pode guardar valores de um mesmo tipo ou de diferentes tipos.
+Ex. list = [] // Lista vazia
+list = ["William", 25, 1,82]
+
+dict ou dicionário -> Armazena conjuntos de valores (chave: valor), podem ser heterogênea ou homogênea.
+1. Para obter o valor de um conjunto em dict, vc acessa pela chave.
+Ex. dados_usuario = {"nome": "William", "cpf": 111450985-90, "idade": 25}
+dados_usuario["nome"] => Devolve o valor, que é "William"
