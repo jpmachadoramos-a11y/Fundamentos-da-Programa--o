@@ -72,3 +72,17 @@ dict ou dicionário -> Armazena conjuntos de valores (chave: valor), podem ser h
 1. Para obter o valor de um conjunto em dict, vc acessa pela chave.
 Ex. dados_usuario = {"nome": "William", "cpf": 111450985-90, "idade": 25}
 dados_usuario["nome"] => Devolve o valor, que é "William"
+
+## POO
+1. Em python, todo molde é declarado através de uma classe -> [class].
+2. Qualquer carasterística dentro de uma classe é chamada de [atributo], e são declaradas como variáveis.
+3. As ações dentro de uma classe são chamadas de métodos e são declaradas como [funções]
+
+4. [self] -> significa ele mesmo, o atributo da classe atual.
+5. [constructor] -> É a estrutura de como a classe será "copiada".
+
+## Cases em Python
+snake_case -> nome_aluno -> nome de variáveis, métodos(funções) e arquivos.
+cammelcase -> nomeAluno -> nome de variáveis, métodos(funções). ``Mais atual``.
+Pascalcase -> NomeAluno -> Classes.
+kebab-case -> nome-aluno -> Não utilizamos em Python.

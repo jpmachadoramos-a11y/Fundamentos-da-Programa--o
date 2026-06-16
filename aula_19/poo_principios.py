@@ -1,0 +1,21 @@
+# Precisamos criar um molde de uma pessoa -> class
+#Características -> atributos -> variáveis: nome e cpf
+#Ações -> Métodos -> funções
+
+class Pessoa:
+    # Construtor
+    def __init__(self, nome: str, cpf: str):
+        self.nome = nome
+        self.cpf = cpf
+
+    #Método de apresentação
+    def apresentar(self) -> str:
+        return f"Olá, meu nome é {self.nome}"
+    
+pessoa1 = Pessoa("Ana", "123")
+pessoa2 = Pessoa("Bruno Costa", "987")
+
+print(pessoa1.apresentar())
+print(pessoa2.apresentar())
+
+
